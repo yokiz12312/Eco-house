@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,60 @@
 
     <title>Эко Дом</title>
 </head>
+
 <body>
-    
-    <header class="header container">
 
-        <img src="./images/Логотип Эко дом 2.svg" alt="" class="header__logo">
+    <header class="header">
+        <div class="container">
+            <img src="./images/Логотип Эко дом 2.svg" alt="" class="header__logo">
 
-        <a href="tel:+790054323240" class="header__phone">+7 (900) 543-23-24</a>
+            <nav>
+                <a href="">О нас</a>
+                <a href="">О нас</a>
+                <a href="">О нас</a>
+                <a href="">О нас</a>
+            </nav>
 
-        <div class="header__search">Поиск</div>
+            <div class="header__content">
 
-        <img class="header__office" src="./images/icons/лк.svg" alt="adsfasdf">
+                <a href="tel:+790054323240" class="header__phone">+7 (900) 543-23-24</a>
 
-        <div class="header__cart"></div>
+                <div class="header__search">
+                    <input class="search__text" type="text" placeholder="Поиск...">
+                    <img src="./images/icons/search-outline-svgrepo-com.svg" alt="" class="search__icon clickable">
+                </div>
 
-        <img src="./images/favicon/logo-01.svg" alt="">
+                <div class="header__icons">
+                    <img class="header__office clickable" src="./images/icons/лк.svg" alt="">
 
+                    <img class="header__cart clickable" src="./images/icons/cart.png" alt="">
+                </div>
+            </div>
+        </div>
     </header>
 
+    <main class="main container">
+
+        <div class="main__textblock">
+            <h1 class="textblock__title">Забота о доме начинается с заботы о природе</h1>
+            <p class="textblock__text">Экологичные товары для дома, безопасные средства для уборки, многоразоыве
+                аксессуары и всё, что делает
+                вашу жизнь комфортнее
+            </p>
+
+            <a href="" class="textblock__button-catalog">Перейти в каталог</a>
+            <a href="" class="textblock__button-about">Узнать о нас</a>
+
+
+        </div>
+
+
+        <div class="main__background">
+            <img class="background__blob" src="./images/background/blob.svg" alt="">
+            <img class="background__content" src="./images/background/034ce873-cf26-42ff-9bdf-f2e51cd1fe03.png" alt="">
+        </div>
+    </main>
+
 </body>
+
 </html>
