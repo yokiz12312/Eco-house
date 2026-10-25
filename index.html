@@ -14,13 +14,12 @@
 
     <header class="header">
         <div class="container">
-            <img src="./images/Логотип Эко дом 2.svg" alt="" class="header__logo">
+            <a href="#"><img src="./images/lgoo2.svg" alt="" class="header__logo"></a>
 
-            <nav>
-                <a href="">О нас</a>
-                <a href="">О нас</a>
-                <a href="">О нас</a>
-                <a href="">О нас</a>
+            <nav class="header__nav">
+                <a href="#catalog">Каталог</a>
+                <a href="#part">Наши партнеры</a>
+                <a href="#os">Обратная связь</a>
             </nav>
 
             <div class="header__content">
@@ -33,9 +32,9 @@
                 </div>
 
                 <div class="header__icons">
-                    <img class="header__office clickable" src="./images/icons/лк.svg" alt="">
+                    <img class="header__office clickable" src="./images/icons/account-svgrepo-com.svg" alt="">
 
-                    <img class="header__cart clickable" src="./images/icons/cart.png" alt="">
+                    <img class="header__cart clickable" src="./images/icons/Vector.svg" alt="">
                 </div>
             </div>
         </div>
@@ -44,14 +43,14 @@
     <main class="main container">
 
         <div class="main__textblock">
-            <h1 class="textblock__title">Забота о доме начинается<br>с заботы о природе</h1>
+
+            <h1 class="textblock__title nunito">Забота о доме начинается<br>с заботы о природе</h1>
             <p class="textblock__text">Экологичные товары для дома, безопасные средства для уборки, многоразоыве
                 аксессуары и всё, что делает
                 вашу жизнь комфортнее
             </p>
 
-            <a href="" class="textblock__button-catalog">Перейти в каталог</a>
-            <br>
+            <a href="#catalog" class="textblock__button-catalog">Перейти в каталог</a>
             <a href="" class="textblock__button-about">Узнать о нас</a>
 
         </div>
@@ -59,8 +58,8 @@
 
 
         <div class="main__background">
-            <img class="background__blob" src="./images/background/blob.svg" alt="">
-            <img class="background__content" src="./images/background/034ce873-cf26-42ff-9bdf-f2e51cd1fe03.png" alt="">
+            <img class="background__blob" src="./images/background/background.svg" alt="">
+            <img class="background__content" src="./images/background/background1.png" alt="">
         </div>
     </main>
 
@@ -83,11 +82,11 @@
     </section>
 
 
-    <section class="catalog container">
+    <section class="catalog container" id="catalog">
         <nav class="catalog__nav">
-            <a href="" class="catalog__filter">Все товары</a>
+            <a href="" class="catalog__filter selected">Все товары</a>
             <a href="" class="catalog__filter">Для уборки</a>
-            <a href="" class="catalog__filter selected">Для кухни</a>
+            <a href="" class="catalog__filter">Для кухни</a>
             <a href="" class="catalog__filter">Для ванной</a>
             <a href="" class="catalog__filter">Многоразовые товары</a>
         </nav>
@@ -95,7 +94,7 @@
         <div class="catalog__cards">
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
+                <img class="card__image" src="./images/products/mdr.webp" alt="">
                 <h2 class="card__name">Мыло для рук</h2>
                 <p class="card__text">Мыло с мягким составом для ежедневного ухода.</p>
                 <div class="group">
@@ -109,11 +108,11 @@
             </div>
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
+                <img class="card__image" src="./images/products/p.jpg" alt="">
                 <h2 class="card__name">Средство для посуды</h2>
                 <p class="card__text">Для чистой посуды и удаления жира.</p>
                 <div class="group">
-                    <p class="card__ob">500 мл</p>
+                    <p class="card__ob">5 л</p>
                     <p class="card__cost">650 ₽</p>
                 </div>
                 <a href="" class="card__info">В корзину</a>
@@ -121,8 +120,8 @@
             </div>
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
-                <h2 class="card__name">Универсальный очиститель</h2>
+                <img class="card__image" src="./images/products/graaaa.jpg" alt="">
+                <h2 class="card__name">Антижир</h2>
                 <p class="card__text">Для ежедневной уборки разных поверхностей.</p>
                 <div class="group">
                     <p class="card__ob">500 мл</p>
@@ -134,7 +133,7 @@
             </div>
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
+                <img class="card__image" src="./images/products/biomio.jpg" alt="">
                 <h2 class="card__name">Спрей для ванной</h2>
                 <p class="card__text">Средство для поддержания чистоты в ванной.</p>
                 <div class="group">
@@ -147,7 +146,7 @@
             </div>
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
+                <img class="card__image" src="./images/products/stekol.jpg" alt="">
                 <h2 class="card__name">Средство для стёкол</h2>
                 <p class="card__text">Для чистых поверхностей без разводов.</p>
                 <div class="group">
@@ -160,7 +159,7 @@
             </div>
 
             <div class="catalog__card">
-                <img class="card__image" src="./images/products/мыло для рук.webp" alt="">
+                <img class="card__image" src="./images/products/images.jpg" alt="">
                 <h2 class="card__name">Многоразовые губки</h2>
                 <p class="card__text">Практичный аксессуар для ежедневной уборки.</p>
                 <div class="group">
@@ -176,7 +175,7 @@
 
     </section>
 
-    <section class="brands container">
+    <section class="brands container" id="part">
 
         <h2 class="brands__title">Наши бренды и партнёры</h2>
 
@@ -186,7 +185,7 @@
                 <img src="./images/brands/images.jpg" alt="" class="brands__image">
             </div>
             <div class="brands__imgs">
-                <img src="./images/brands/220913_6008.jpg" alt="" class="brands__image">
+                <img src="./images/brands/sort.jpg" alt="" class="brands__image">
             </div>
             <div class="brands__imgs">
                 <img src="./images/brands/aos.png" alt="" class="brands__image">
@@ -213,7 +212,7 @@
 
             <div class="otz__card">
                 <div class="otz__head">
-                    <img class="otz__avatar" src="./images/avatars/1.jpg" alt="">
+                    <img class="otz__avatar" src="./images/lude/1152428992176126824.jpg" alt="">
 
                     <div class="otz__info">
                         <h3 class="otz__name">Анна Смирнова</h3>
@@ -227,7 +226,7 @@
 
             <div class="otz__card">
                 <div class="otz__head">
-                    <img class="otz__avatar" src="./images/avatars/2.jpg" alt="">
+                    <img class="otz__avatar" src="./images/lude/23503229302286497.jpg" alt="">
 
                     <div class="otz__info">
                         <h3 class="otz__name">Михаил Орлов</h3>
@@ -241,7 +240,7 @@
 
             <div class="otz__card">
                 <div class="otz__head">
-                    <img class="otz__avatar" src="./images/avatars/3.jpg" alt="">
+                    <img class="otz__avatar" src="./images/lude/771452611215227719.jpg" alt="">
 
                     <div class="otz__info">
                         <h3 class="otz__name">Елена Кузнецова</h3>
@@ -255,7 +254,7 @@
 
             <div class="otz__card">
                 <div class="otz__head">
-                    <img class="otz__avatar" src="./images/avatars/4.jpg" alt="">
+                    <img class="otz__avatar" src="./images/lude/871376227898094623.jpg" alt="">
 
                     <div class="otz__info">
                         <h3 class="otz__name">Дмитрий Волков</h3>
@@ -282,49 +281,72 @@
 
     </section>
 
-    <section class="callback container">
+    <section class="callback container" id="os">
 
-    <div class="callback__textblock">
-        <h2 class="callback__title">Заказать обратный звонок</h2>
-        <p class="callback__text">Оставьте имя и номер телефона, и наш менеджер свяжется с вами.</p>
-    </div>
-
-    <form class="callback__form" action="">
-        <input class="callback__input" type="text" name="name" placeholder="Ваше имя">
-        <input class="callback__input" type="tel" name="phone" placeholder="Номер телефона">
-        <button class="callback__button" type="submit">Отправить</button>
-    </form>
-
-</section>
-
-<section class="contacts container">
-
-    <div class="contacts__info">
-
-        <h2 class="contacts__title">Контакты</h2>
-
-        <div class="contacts__adres">
-            <p class="contacts__text">Адрес</p>
-            <p class="contacts__value">г. Казань, ул. Большая, д. 33</p>
-        </div>
-        <div class="contacts__phone">
-            <p class="contacts__text">Телефон</p>
-            <a href="tel:+79005432324" class="contacts__value ">+7 (900) 543-23-24</a>
-        </div>
-        <div class="contacts__mail">
-            <p class="contacts__text">Электронная почта</p>
-            <a href="mailto:corporate@mail.ru" class="contacts__value ">corporate@mail.ru</a>
-        </div>
-        <div class="contacts__time">
-            <p class="contacts__text">Рабочее время</p>
-            <p class="contacts__value">Пн-Пт: 9:00-21:00<br>Сб-Вс: 10:00-22:00</p>
+        <div class="callback__textblock">
+            <h2 class="callback__title">Заказать обратный звонок</h2>
+            <p class="callback__text">Оставьте имя и номер телефона, и наш менеджер свяжется с вами.</p>
         </div>
 
-    </div>
+        <form class="callback__form">
+            <input class="callback__input" name="name" placeholder="Ваше имя">
+            <input class="callback__input" name="phone" placeholder="Номер телефона">
+            <a href="#" class="callback__b">Отправить</a>
+        </form>
 
-    <img class="contacts__map" src="./images/background/map.png" alt="">
+    </section>
 
-</section>
+    <section class="contacts container">
+
+        <div class="contacts__info">
+
+            <h2 class="contacts__title">Контакты</h2>
+
+            <div class="contacts__adres">
+                <p class="contacts__text">Адрес</p>
+                <p class="contacts__value">г. Казань, ул. Большая, д. 33</p>
+            </div>
+            <div class="contacts__phone">
+                <p class="contacts__text">Телефон</p>
+                <a href="tel:+79005432324" class="contacts__value ">+7 (900) 543-23-24</a>
+            </div>
+            <div class="contacts__mail">
+                <p class="contacts__text">Электронная почта</p>
+                <a href="mailto:corporate@mail.ru" class="contacts__value ">corporate@mail.ru</a>
+            </div>
+            <div class="contacts__time">
+                <p class="contacts__text">Рабочее время</p>
+                <p class="contacts__value">Пн-Пт: 9:00-21:00<br>Сб-Вс: 10:00-22:00</p>
+            </div>
+
+        </div>
+
+        <img class="contacts__map" src="./images/background/map.png" alt="">
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="up">
+                <div class="footer__logo">
+                    <img class="footer__logo" src="./images/logo1.svg" alt="">
+                </div>
+                <div class="footer__soc">
+                    <h2>Наши соц. сети</h2>
+                    <nav>
+                        <a href="" class="soc__link"><img src="./images/icons/max.svg" alt=""></a>
+                        <a href="" class="soc__link"><img src="./images/icons/vk.svg" alt=""></a>
+                    </nav>
+                </div>
+            </div>
+            <div class="foot">
+                <h2>Каримов Ильяс</h2>
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
